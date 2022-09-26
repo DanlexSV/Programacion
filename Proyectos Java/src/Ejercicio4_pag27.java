@@ -13,9 +13,9 @@ public class Ejercicio4_pag27 {
 		Resto = A % 2;
 		
 		if (Resto == 0) {
-			System.out.print("Es número par");
+			System.out.print("El número es par");
 		} else if (Resto != 0) {
-			System.out.print("Es un número impar");
+			System.out.print("El número es impar");
 		}
 
 	}
