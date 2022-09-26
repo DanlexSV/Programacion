@@ -5,7 +5,11 @@ public class Ejercicio2_pag26 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		double exam1, exam2, exam3;
+		String estudiante;
+		
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Escriba el nombre del estudiante");
+		estudiante = sc.nextLine();
 		System.out.println("La nota del Examen 1 es");
 		exam1 = sc.nextDouble();
 		System.out.println("La nota del Examen 2 es");
@@ -19,10 +23,10 @@ public class Ejercicio2_pag26 {
 		promedio = suma / num1;
 		
 		if (promedio >= 5) {
-			System.out.print("El alumno ha aprobado");
+			System.out.print("El alumno " + estudiante + " ha aprobado");
 			
 		} else if (promedio < 5) {
-			System.out.print("El alumno ha suspendido");
+			System.out.print("El alumno " + estudiante + " ha suspendido");
 		}
 
 	}
