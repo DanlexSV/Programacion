@@ -13,9 +13,7 @@ public class area_rectangulo {
 		h = sc.nextInt();
 		
 		area = b * h;
-		
 		System.out.println("El area del rectangulo es: " + area);
 		
 	}
-
 }
