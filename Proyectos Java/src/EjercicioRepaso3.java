@@ -28,17 +28,14 @@ public class EjercicioRepaso3 {
 					} else if (tomate.equals("no")) {
 						System.out.println("Quiere una hamburguesa sin tomate");
 						System.out.println("Preparando su hamburguesa sin tomate");
-					}
-					
+					}					
 				} else if (ingredientes.equals("no")) {
 					System.out.println("Quiere hamburguesa sola");
 					System.out.println("Preparando su hamburguesa sola");
-				}
-				
+				}				
 			} else if (hamburguesa.equals("no")) {
 				System.out.println("Sólo tenemos hamburguesas");
-			}
-			
+			}			
 		} else if (orden.equals("no")) {
 			System.out.println("No ha pedido nada");
 		}
