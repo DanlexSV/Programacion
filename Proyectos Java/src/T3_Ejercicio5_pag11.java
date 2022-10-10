@@ -6,11 +6,11 @@ public class T3_Ejercicio5_pag11 {
 		for (int i=1; i<4; i++) {
 			System.out.print(i);
 			System.out.print(" ");
-			for (int j=1; j>=1; j--)
+			for (int j=i; j>=1; j--)
 			{	System.out.print(j);
 				System.out.print(" ");
 			}
-			System.out.print("/n");
+			System.out.print("\n");
 		}
 	}
 }
