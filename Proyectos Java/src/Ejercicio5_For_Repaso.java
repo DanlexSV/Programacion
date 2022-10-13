@@ -1,28 +1,25 @@
 import java.util.Scanner;
 
-public class Ejercicio4_Repaso {
+public class Ejercicio5_For_Repaso {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		double a, media;
 		int cont = 0;
-		int b = 1;
-		int acumulador = 0;
+		int acum = 0;
 		Scanner sc = new Scanner(System.in);
 		
-		do {
+		for (int b = 1; b < 10; b++) {
 			System.out.println("Escriba un valor numérico");
 			a = sc.nextDouble();
 			if (a > 0) {
-				acumulador += a;
+				acum += a;
 				cont++;
 			}
-			b++;
-		} while (b < 10);
-		
+		}
 		if (cont > 0) {
-			media = acumulador / cont;
+			media = acum / cont;
 			System.out.println("La media es: " + media);
 		} else {
 			System.out.println("No ha escrito ningún número positivo");
