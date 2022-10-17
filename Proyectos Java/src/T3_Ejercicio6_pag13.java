@@ -14,7 +14,7 @@ public class T3_Ejercicio6_pag13 {
 		
 		for (int i = 0; i < frase.length(); i++) {
 			
-			switch (frase.charAt(i)) {
+			switch (vocal.charAt(i)) {
 			case "a":
 			case "e":
 			case "i":
